@@ -83,7 +83,7 @@ author:
   name             : "Choi Ching Lam"
   avatar           : "profile.png"
   bio              : "Aspiring CV & ML researcher | Year 1 undergraduate at CUHK | NVIDIA AI Tech Center intern"
-  location         : "The Chinese University of Hong Kong (CUHK)"
+  location         : "The Chinese University of Hong Kong"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=1uIAXh0AAAAJ&hl=en"
@@ -177,16 +177,16 @@ kramdown:
 collections:
   teaching:
     output: true
-    permalink: /:collection/:path
+    permalink: /:collection/:path/
   publications:
     output: true
-    permalink: /:collection/:path
+    permalink: /:collection/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path
+    permalink: /:collection/:path/
   talks:
     output: true
-    permalink: /:collection/:path
+    permalink: /:collection/:path/
 
 
 # Defaults
