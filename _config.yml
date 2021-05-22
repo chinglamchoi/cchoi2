@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Choi Ching Lam"
   avatar           : "profile.png"
-  bio              : "Aspiring CV & ML researcher | Year 1 undergraduate at The Chinese University of Hong Kong | NVIDIA AI Tech Center intern"
-  location         : "Hong Kong"
+  bio              : "Aspiring CV & ML researcher | Year 1 undergraduate at CUHK | NVIDIA AI Tech Center intern"
+  location         : "The Chinese University of Hong Kong (CUHK)"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=1uIAXh0AAAAJ&hl=en"
   email            : "cchoi@link.cuhk.edu.hk"
   researchgate     : "https://www.researchgate.net/profile/Ching-Lam-Choi"
