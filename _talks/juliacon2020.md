@@ -1,5 +1,5 @@
 ---
-title: "Julia Track Google Code In and Beyond"
+title: "[JuliaCon 2020] Julia Track Google Code In and Beyond"
 collection: talks
 type: "Talk"
 permalink: /talks/juliacon2020
