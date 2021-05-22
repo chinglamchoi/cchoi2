@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/divco
+excerpt: 'Conditional generative adversarial networks (cGANs) target at synthesizing diverse images given the input conditions and latent codes, but unfortunately, they usually suffer from the issue of mode collapse. To solve this issue, previous works mainly focused on encouraging the correlation between the latent codes and their generated images, while ignoring the relations between images generated from various latent codes. The recent MSGAN tried to encourage the diversity of the generated image but only considers &quot;negative&quot; relations between the image pairs. In this paper, we propose a novel DivCo framework to properly constrain both &quot;positive&quot; and &quot;negative&quot; relations between the generated images specified in the latent space. To the best of our knowledge, this is the first attempt to use contrastive learning for diverse conditional image synthesis. A novel latent-augmented contrastive loss is introduced, which encourages images generated from adjacent latent codes to be similar and those generated from distinct latent codes to be dissimilar. The proposed latent-augmented contrastive loss is well compatible with various cGAN architectures. Extensive experiments demonstrate that the proposed DivCo can produce more diverse images than state-of-the-art methods without sacrificing visual quality in multiple unpaired and paired image generation tasks.'
+date: 2021-03-14
+venue: 'IEEE Conference on Computer Vision and Pattern Recognition'
+paperurl: 'http://academicpages.github.io/files/divco.pdf'
+citation: 'Rui Liu, Yixiao Ge, Ching Lam Choi, Xiaogang Wang and Hongsheng Li. DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network. In <i>CVPR</i>, 2021.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+Conditional generative adversarial networks (cGANs) target at synthesizing diverse images given the input conditions and latent codes, but unfortunately, they usually suffer from the issue of mode collapse. To solve this issue, previous works mainly focused on encouraging the correlation between the latent codes and their generated images, while ignoring the relations between images generated from various latent codes. The recent MSGAN tried to encourage the diversity of the generated image but only considers &quot;negative&quot; relations between the image pairs. In this paper, we propose a novel DivCo framework to properly constrain both &quot;positive&quot; and &quot;negative&quot; relations between the generated images specified in the latent space. To the best of our knowledge, this is the first attempt to use contrastive learning for diverse conditional image synthesis. A novel latent-augmented contrastive loss is introduced, which encourages images generated from adjacent latent codes to be similar and those generated from distinct latent codes to be dissimilar. The proposed latent-augmented contrastive loss is well compatible with various cGAN architectures. Extensive experiments demonstrate that the proposed DivCo can produce more diverse images than state-of-the-art methods without sacrificing visual quality in multiple unpaired and paired image generation tasks.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](http://academicpages.github.io/files/divco.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Rui Liu, Yixiao Ge, Ching Lam Choi, Xiaogang Wang and Hongsheng Li. DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network. In <i>CVPR</i>, 2021.
