@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Choi Ching Lam"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Choi Ching Lam"
+description              : &description "Aspiring CV & ML researcher | Year 1 undergraduate at CUHK | NVIDIA AI Tech Center intern"
 url                      : https://chinglamchoi.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/choi" # the subpath of your site, e.g. "/blog"
 repository               : "chinglamchoi/cchoi.github.io"
@@ -193,7 +193,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "cchoi"
       type: posts
     values:
       layout: single
@@ -204,14 +204,14 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: ""
+      path: "cchoi"
       type: pages
     values:
       layout: single
       author_profile: true
   # _teaching
   - scope:
-      path: ""
+      path: "cchoi"
       type: teaching
     values:
       layout: single
@@ -220,7 +220,7 @@ defaults:
       comments: true
   # _publications
   - scope:
-      path: ""
+      path: "cchoi"
       type: publications
     values:
       layout: single
@@ -229,7 +229,7 @@ defaults:
       comments: true
   # _portfolio
   - scope:
-      path: ""
+      path: "cchoi"
       type: portfolio
     values:
       layout: single
@@ -238,7 +238,7 @@ defaults:
       comment: true
   # _talks
   - scope:
-      path: ""
+      path: "cchoi"
       type: talks
     values:
       layout: talk
