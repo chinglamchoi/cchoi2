@@ -193,7 +193,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "cchoi"
+      path: ""
       type: posts
     values:
       layout: single
@@ -204,14 +204,14 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "cchoi"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
   # _teaching
   - scope:
-      path: "cchoi"
+      path: ""
       type: teaching
     values:
       layout: single
@@ -220,7 +220,7 @@ defaults:
       comments: true
   # _publications
   - scope:
-      path: "cchoi"
+      path: ""
       type: publications
     values:
       layout: single
@@ -229,7 +229,7 @@ defaults:
       comments: true
   # _portfolio
   - scope:
-      path: "cchoi"
+      path: ""
       type: portfolio
     values:
       layout: single
@@ -238,7 +238,7 @@ defaults:
       comment: true
   # _talks
   - scope:
-      path: "cchoi"
+      path: ""
       type: talks
     values:
       layout: talk
