@@ -7,7 +7,7 @@ venue: "JuliaCon 2020"
 date: 2020-07-31
 location: "Everywhere on Earth"
 ---
-
+![JuliaCon 2020 Talk](https://chinglamchoi.github.io/cchoi/files/juliacon2020.jpg)
 [More information here](https://live.juliacon.org/talk/HJTZNE)
 
 **Abstract**  
