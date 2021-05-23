@@ -1,5 +1,5 @@
 ---
-title: "[PyCon Taiwan 2020] Corona-Net: Fighting COVID-19 with Machine Learning"
+title: "[PyCon Taiwan 2020] Corona-Net: Fighting COVID-19 with Machine Learning" <br><img src="https://chinglamchoi.github.io/cchoi/files/pycontw2020.PNG"> <style> .center {text-align: center;} </style>
 collection: talks
 type: "Talk"
 permalink: /talks/pycontw2020
@@ -7,7 +7,7 @@ venue: "PyCon Taiwan 2020"
 date: 2020-09-06
 location: "Remote"
 ---
-
+![PyCon Taiwan 2020 Talk](https://chinglamchoi.github.io/cchoi/files/pycontw2020.PNG)  
 [More information here](https://tw.pycon.org/2020/en-us/conference/talk/1163063448498602356/)
 
 **Abstract**
