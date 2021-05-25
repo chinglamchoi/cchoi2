@@ -3,11 +3,11 @@ title: "Elesafer: Security With Machine Learning"
 collection: projects
 type: "Computer Vision project"
 permalink: /projects/elesafer
-venue: ""
+venue: "Elesafer"
 date: 2018-07-30
 location: "Hong Kong"
 ---
-![YOLOv3](https://chinglamchoi.github.io/cchoi/files/yolov3.png)
+![YOLOv3](https://chinglamchoi.github.io/cchoi/files/yolo.png)
 
 We introduce Elesafer -- a Machine Learning 3-in-1 (recognition, alert, tracking) solution that firstly, recognizes that a weapon is being used to commit a crime; secondly, alerts security by raising an alarm; thirdly, uploads and synchronizes details about the suspect (facial features, physique, outfit) via a Cloud database; finally, tracks the suspect real-time via Facial Recognition technology across different cameras of the network, in order to gain information on the offender's escape route. We apply YOLOv3 (You Only Look Once), a real-time object detection model trained on a customized version of the Open Images dataset for detecting armed crimes. We subsequently utilize a Siamese Neural Network for one-shot learning, in order to recognize criminals in the event of a crime. Finally, we outline future development directions, including a mobile application for security management, enabling them to keep track of CCTV footage, Neural Network output, and Cloud information in a user-friendly manner.
 
