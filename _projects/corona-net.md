@@ -1,0 +1,36 @@
+---
+title: "Corona-Net: Fighting COVID-19 With Computer Vision"
+collection: projects
+type: "Biomedical imaging project"
+permalink: /projects/corona-net
+venue: "GitHub: [https://github.com/chinglamchoi/Corona-Net/](https://github.com/chinglamchoi/Corona-Net/)"
+date: 2020-03-15
+location: "Hong Kong"
+---
+![Corona-Net](https://chinglamchoi.github.io/cchoi/files/coronanet.PNG)
+
+Current baselines in biomedical image segmentation utilise fully-convolutional structures for the benefits of end-to-end trainability, size-invariance and efficiency. One such method is U-Net, a two-track contraction-expansion model which fuses features at different hierarchies with the objective of generating deep localisable features. Here, I introduce Corona-Net, a 3-part contribution dedicated to the classification, binary segmentation and multi-class segmentation of COVID-19. I first leverage the EfficientNet model for COVID-19 diagnosis, achieving an accuracy of 94.00%. I then utilise and refine the U-Net architecture for both binary and 3-class (ground-glass, consolidation, pleural effusion) segmentation of COVID-19 symptoms, through inference on the 100-slice COVID-19 CT segmentation (chest axial CT) dataset 1, and 630-slice COVID-19 CT segmentation dataset 2. Through strong data augmentation and rigorous experimentation, I overcome the small dataset size (630) to achieve a Dice Loss of 79.65% (dataset 2) and 61.60% (dataset 1). Through Corona-Net, I aim to develop a reliable, visual-semantically balanced method for automatic COVID-19 diagnosis confirmation, in order to contribute to the fight against this pandemic.
+
+COVID-19
+======
+Identified in December 2019, the novel Coronavirus is an infectious disease of the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) strain, with notable symptoms of pneumonia and respiratory distress syndrome. Without any known vaccine nor specific antiviral treatment, COVID-19 has infected 2.7 million worldwide, and claimed the lives of 0.2 million. Amidst this deadly pandemic, one is obliged to do their best to mitigate the tragic loss of lives. Through Corona-Net, we introduce a robust system for automatic COVID-19 diagnosis on CT images, in the hopes of contributing to the global fight against the Coronavirus.
+
+Applications
+======
+Corona-Net is currently useful for automated COVID-19 diagnosis confirmation, and COVID-19 severity analysis for each patient. Future applications include designing personalised medical treatment, and mortality probability analysis. Due to the contagious nature of the Coronavirus, hospitals around the world are inundated with COVID-19 cases, where patients far outnumbering the number of doctors and supplies available. This leads to 2 crucial obstacles in combating the pandemic -- manpower shortage and supplies shortage. Corona-Net tackles these issues by performing diagnosis confirmation of COVID-19. With Corona-Net, hospitals no longer rely on doctors (nor specialists) to analyse CT scan results, and are able to perform analysis instantaneously at any hour of the day. This relieves the burden of doctors, allowing them to focus on more complex tasks of patient treatment. Additionally, Corona-Net optimises the triaging of patients and allocation of scarce medical supplies (to patients) through statistical analysis. With a single CT scan slice, Corona-Net predicts the type and extent (area) of symptoms exhibited of Coronavirus patients. The extent of infected area (number of pixels) and type of infection, serve as objective evaluation metrics for the severity of each case of COVID-19, informing doctors on information such as which patient most urgently requires a ventilator. In the future, with the appropriate data and further research, Corona-Net can be extended to conduct mortality probability analysis on individual patients, as well as for Personalised Medication -- designing optimal treatment strategies and medication tailored to each COVID-19 case.
+
+U-Net: Fully Convolutional Networks for Biomedical Image Segmentation
+======
+![U-Net](https://chinglamchoi.github.io/cchoi/files/unet.png)  
+In biomedical imaging, it is often insufficient to merely infer an image-level label. Especially in tasks such as tumour boundary resection and segmentation, precise and fine-grained localisation is required on top of object classification. Due to the nature of human biological tissue, there exists the additional challenge of tissue deformation invariance. To facilitate robust biomedical image segmentation, models are required to learn deep, generalisable yet simultaneously localised masks.
+
+U-Net is an application of the FCN architecture, with the modification that the expansive path is largely symmetrical to the contracting path; a tiling strategy is utilised to allow for input of arbitrary size. It is demonstrated on 2 biomedical imaging tasks -- segmentation of neuronal structures in electron microscopic readings and cell segmentation in light microscopic images, with performance reported for 3 datasets -- ISBI 2012 EM segmentation challenge dataset, "PhC-U373" dataset and "DIC-HeLa" dataset both from the 2014 \& 2015 ISBI cell tracking challenge. Building on prior research, strong data augmentation is utilised in U-Net to simulate variations in biological tissue structure and mitigate the effect of small dataset sizes, with the objective of achieving shift and rotation invariance as well as robustness to deformations and grey value variations. Furthermore, a weighted loss mechanism is introduced, where a weight map is precomputed on the train set distribution using morphological operations, in order to balance class frequencies and better incentivise border resection. A combination of FCN, data augmentation and weighted loss mechanisms allow U-Net to significantly surpass previous baselines, attaining rank-1 performance on the 3 aforementioned benchmark datasets.
+  
+Efficient-Net: Compound Feature Scaling for Speed and Accuracy
+======
+![Efficient-Net](https://chinglamchoi.github.io/cchoi/files/efficientnet.png)  
+Holding state-of-the-art in the prestigious ImageNet benchmark, EfficientNet is a classification model which revolutionises the composition and optimisation of ConvNets. Guided by the insight that network depth, width and (input) resolution are mutually influential factors which govern the performance (accuracy, computational cost) of models, introduces a novel Compound Scaling Method, defined as:
+![Compound Scaling Method](https://chinglamchoi.github.io/cchoi/files/csm.PNG)  
+where \alpha, \beta, \gamma are constants defined via a small grid search on their baseline model  (I used values \alpha=1.2, \beta=1.1, \gamma=1.15), and \phi is the compound coefficient -- a variable depending on how much more (2^\phi) computational power does one intend to use. In other words, through compound scaling d, w, r and the recognition that these factors should not be separately nor arbitrarily scaled, maximum performance improvement is achieved while when utilising 2^\phi more computational resources. This efficient and highly accurate classification model represents the ideal architecture for our task of COVID-19 diagnosis, where speed and accuracy are critical.
+
+
