@@ -3,10 +3,6 @@ title: 'Learning Deep Features for Discriminative Localization'
 date: 2020-03-17
 permalink: /posts/2020/03/cam/
 tags:
-  - computer vision
-  - deep learning
-  - machine learning
-  - XAI
 ---
 Global Average Pooling and Class Activation Mapping for Explainable AI  
 ![Class Activation Mapping](https://chinglamchoi.github.io/cchoi/files/cam.png)
