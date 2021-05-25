@@ -7,7 +7,8 @@ venue: "GitHub (https://github.com/chinglamchoi/MAESTRO)"
 date: 2020-07-27
 location: "Hong Kong"
 ---
-![MAESTRO](https://chinglamchoi.github.io/cchoi/files/maestro.PNG)  
+![MAESTRO](https://chinglamchoi.github.io/cchoi/files/maestro.PNG) 
+  
 We introduce MAESTRO.ai TaiChi Tutor, a healthcare application which leverages state-of-the-art Human Pose Estimation technology for social good. Our contributions are two-fold: firstly, adapting the OKS Keypoint Similarity metric for body-shape invariant comparison of TaiChi postures; secondly, introducing an interactive platform for the automatic AI tutorial of TaiChi to solve various social issues.
   
 Guided by our motto, "Technology Bridging Generations", we leverage the PoseNet model to combat issues of elderly depression and lack of intergenerational understanding in the aging Hong Kong society. We achieve this through the gamification and modernisation of the ancient art of TaiChi, connecting both youngsters and elders in learning and practicing TaiChi, enhancing physical and mental health through exercise, while simultaneously promoting intergenerational interaction and adhesion. 
