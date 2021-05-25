@@ -3,6 +3,8 @@ title: 'OOPS! Predicting Unintentional Action in Video'
 date: 2020-06-25
 permalink: /posts/2020/06/oops/
 tags:
+  - computer vision
+  - deep learning
 ---
 Understanding the Intentionality of Motion  
 ![OOOPS!](https://chinglamchoi.github.io/cchoi/files/oops.png)

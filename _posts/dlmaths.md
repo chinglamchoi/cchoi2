@@ -3,6 +3,10 @@ title: 'Solving Differential Equations with Transformers: Deep Learning for Symb
 date: 2020-01-21
 permalink: /posts/2020/01/dlmaths/
 tags:
+  - machine learning
+  - maths
+  - deep learning
+  - transformers
 ---
 ![Deep Learning for Symbolic Mathematics](https://chinglamchoi.github.io/cchoi/files/dl.png)
 
