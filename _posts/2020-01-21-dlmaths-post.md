@@ -26,7 +26,7 @@ Before performing inference, extensive pre-processing is done in areas of task s
 
 Expressions as Trees
 ======
-Tree data structures are inherently hierarchical and can reflect important features of mathematical expressions. By considering operators and functions as internal nodes of trees; operands as nodes; constants and variables as leaves, the authors achieve 3 things: encode order of operations information, describe associativity of operators, simplification by eliminating the need for parentheses. To illustrate this method, let's parse the expression $a^{2}+2ab+b^{2}:
+Tree data structures are inherently hierarchical and can reflect important features of mathematical expressions. By considering operators and functions as internal nodes of trees; operands as nodes; constants and variables as leaves, the authors achieve 3 things: encode order of operations information, describe associativity of operators, simplification by eliminating the need for parentheses. To illustrate this method, let's parse the expression $a^{2}+2ab+b^{2}$:  
 ![tree](https://chinglamchoi.github.io/cchoi/files/tree.png)  
 Following the convention in the paper, the tree is associative to the right. In order to guarantee a one-to-one mapping between expressions and trees (particularly that different expressions correspond to different trees, even if they are identical in evaluation), constraints (e.g. each parent as at most 2 children, no unary operators may be used) are imposed).
 
@@ -36,16 +36,17 @@ The authors elect to use seq2seq models instead of tree-to-tree networks to avoi
   
 Model
 ======
-One of the notable features of the method in this paper is that a very simple, vanilla seq2seq transformer model is used. Introduced by Vaswani et al. in 2017, this model has 8 attention heads, 6 layers and produces outputs of 512 dimensions. The model leverages the encoder-decoder structure, with the addition of stacked self-attention and point-wise fully-connected layers.
+One of the notable features of the method in this paper is that a very simple, vanilla seq2seq transformer model is used. Introduced by Vaswani et al. in 2017, this model has 8 attention heads, 6 layers and produces outputs of 512 dimensions. The model leverages the encoder-decoder structure, with the addition of stacked self-attention and point-wise fully-connected layers.  
 ![transformer](https://chinglamchoi.github.io/cchoi/files/transformer.png)  
-As described in the original paper, Attention mechanisms improve conventional sequence models in 2 ways: it better encodes long-distance dependencies in language data; escapes from having to encode sentence input to a fix length feature vector, allowing the decoder to selectively attend to relevant input words. This Transformer model extends the original attention model by completely replacing the recurrent model and convolutions with self-attention mechanisms. Via the Multi-Head Attention mechanism, this 2017 model facilitates acceleration via parallelism. The Scaled Dot-Product Attention, defined as:
-![attention](https://chinglamchoi.github.io/cchoi/files/attention.png)
+As described in the original paper, Attention mechanisms improve conventional sequence models in 2 ways: it better encodes long-distance dependencies in language data; escapes from having to encode sentence input to a fix length feature vector, allowing the decoder to selectively attend to relevant input words. This Transformer model extends the original attention model by completely replacing the recurrent model and convolutions with self-attention mechanisms. Via the Multi-Head Attention mechanism, this 2017 model facilitates acceleration via parallelism. The Scaled Dot-Product Attention, defined as:  
+![attention](https://chinglamchoi.github.io/cchoi/files/attention.png)  
 where $Q$ is a matrix of input queries, $K$ and $V$ are matrices of input keys and values respectively. $\sigma$ applies the softmax function on the dot product of query and keys scaled by $1/sqrt(d_k)$ to obtain the weights for attention. By using the dot product operation, and using 8 attention head in parallel, the Transformer model becomes much more computationally efficient than its recurrent model counterparts. This benefit is evidenced in differential equation solving experiments of this paper, whereby using Transformers, Lample and Charton are able to compute solutions with higher accuracy than CAS under 30 seconds, outperforming Mathematica which times out indefinitely in 20% of these test cases.
   
 Experiment & Evaluation
 ======
 The seq2seq models for solving 1st & 2nd order ODEs are trained on training sets with 40M expressions each. As described in the paper, the authors consider expressions which satisfy the following:  
-![conditions](https://chinglamchoi.github.io/cchoi/files/conditions.png)  
+![conditions](https://chinglamchoi.github.io/cchoi/files/conditions.png) 
+  
 The size of problem space can be calculated by applying  
 ![problem space](https://chinglamchoi.github.io/cchoi/files/problem_space.png)  
 Other implementation details include using the Adam optimiser with a learning rate of 1e-04, removing expressions that exceed 512 tokens, and training with a batch size of 256 expressions. Inference results are generated by beam search and the log-likelihood loss is minimised. SymPy is used to compare if inferred results are equivalent to the reference answer.
