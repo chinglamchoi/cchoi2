@@ -3,7 +3,7 @@ title: "MAESTRO.ai TaiChi Tutor"
 collection: projects
 type: "Computer Vision project"
 permalink: /projects/maestro
-venue: [GitHub](https://github.com/chinglamchoi/MAESTRO)
+venue: "GitHub (https://github.com/chinglamchoi/MAESTRO)"
 date: 2020-07-27
 location: "Hong Kong"
 ---
