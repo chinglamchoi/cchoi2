@@ -11,30 +11,57 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* BEng in Electronic Engineering, The Chinese University of Hong Kong, 2020-2024 (expected)
+  * GPA: 3.925/4.000
+* Diocesan Girls' School, 2015-2020
+  * Mathematics Extended Module 2, Physics, ICT, Literature in English
+* The Deep Learning Specialization, Deeplearning.ai, Coursera, 2018
+  * [https://coursera.org/share/79cb80a49acd6d0fe866c9d61702362c](https://coursera.org/share/79cb80a49acd6d0fe866c9d61702362c)
+* Hong Kong Academy for Gifted Education, 2016-2020
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* UG Summer Research Intern
+  * Jun - Aug 2021 (2 months)
+  * Engineering Faculty, The Chinese University of Hong Kong
+  * Project: Optimization Methods for Machine Learning
+  * Supervisor: Professor [Anthony MC So](https://www1.se.cuhk.edu.hk/~manchoso/)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* TCL Research Intern
+  * May - Dec 2021 (6 months)
+  * TCL Corporate Research(Hong Kong) Co,, Ltd.
+  * Projects: tbc
+  * Supervisor: tbc
+
+* NVIDIA Research Intern
+  * May 2020 - Present
+  * NVIDIA AI Technology Center, Hong Kong
+  * Projects: Multi-modal video generation, GAN mode-collapse problem, SSL
+  * Supervisors/Collaborators: Dr Ming-Yu Liu, Dr Arun Mallya, Dr Ting-Chun Wang, Dr Charles Cheung
+
+* Multimedia Laboratory Research Mentee
+  * Jun 2019 - Present
+  * Multimedia Laboratory, The Chinese University of Hong Kong
+  * Publications: 
+    * Rui Liu, Yixiao Ge, Ching Lam Choi, Xiaogang Wang and Hongsheng Li, "DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network", in CVPR, 2021.
+  * In submission: 2 projects on the GAN mode collapse problem, self-knowledge distillation, ICCV 2021
+  * Supervisor: Professor Li Hongsheng
+
+* CityU Apps Lab Summer Intern
+  * Jul - Sep 2018
+  * CityU Apps Lab, City University of Hong Kong
+  * Responsibilities: 
+    * Co-developed learning materials (Python, Tensorflow, linear algebra basics) for CityU's AI Summer Course
+    * Co-taught & TA'd the AI Summer Course
+    * Introduced MIT App Inventor to aspiring secondary school teachers through Teach4HK
+  * Supervisor: Dr Ray C.C. Cheung
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Computer Vision
+* Machine Learning
+* Deep Learning
+* Research
 
 Publications
 ======
@@ -47,8 +74,8 @@ Talks
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
+
+Projects
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
@@ -56,4 +83,6 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* AI Code-In Founder
+* Julia Community Student Club Leader 2020  
+* Hong Kong Joint School Electronics and Computer Society (HKJSECS): 40th President 
