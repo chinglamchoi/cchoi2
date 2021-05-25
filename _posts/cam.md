@@ -1,0 +1,60 @@
+---
+title: 'Learning Deep Features for Discriminative Localization'
+date: 2020-03-17
+permalink: /posts/2020/03/cam/
+tags:
+  - computer vision
+  - deep learning
+  - machine learning
+  - XAI
+---
+Global Average Pooling and Class Activation Mapping for Explainable AI  
+![Class Activation Mapping](https://chinglamchoi.github.io/cchoi/files/cam.png)
+
+Article published in Towards Data Science: [https://towardsdatascience.com/learning-deep-features-for-discriminative-localization-class-activation-mapping-2a653572be7f](https://towardsdatascience.com/learning-deep-features-for-discriminative-localization-class-activation-mapping-2a653572be7f)  
+Today, I will revisit the CVPR 2016 paper, "Learning Deep Features for Discriminative Localization". Authored by MIT researchers Zhou et al. [1], this paper makes valuable contributions in Explainable AI and weakly-supervised detection/localisation. Its contributions can be summarised as follows:  
+1. The insight that Global Average Pooling allows ConvNets to retain their localisation ability  
+2. Introducing the Class Activation Mapping technique for weakly-supervised, end-to-end, single-pass object localisation  
+3. Achieving top-5 localisation error of 37.1% on ILSVRC 2014, close to fully-supervised AlexNet's 34.2%  
+This paper builds on prior research of the localisation capabilities of ConvNets, as well as the benefits of Global Average Pooling (GAP). Widely applied in Computer Vision, ConvNets have an inherently pyramidal structure and native translation invariance, allowing them to extract features of increasing semantic representativeness through abstracting from spatial feature maps in a hierarchical manner. While previous research [2] showed that the convolutional units of ConvNets learn location information without supervision, this ability is lost when fully-connected (FC) layers (where neurons are densely connected to the activation values of the previous layer) are utilised for classification. In this work, Zhou et al. propose Global Average Pooling as a mechanism to preserve the localisation ability of ConvNets till the last layer.  
+  
+Global Average Pooling (GAP)
+======
+Though GAP was not a new technique -- having been researched as a regulariser to prevent overfitting, its potential was not fully realised until this work. The authors make a notable comparison between GAP and [3]'s Global Max Pooling (GMP), for the purpose of weakly-supervised object localisation. With GMP, [3] was limited to localising boundaries of objects, while GAP enables Zhou et al. to identify the location of entire objects (akin to a mask). This is afforded by the insight that average pooling incentivises the identification of all discriminative regions (features which contribute to successful recognition of the object), while max pooling merely encourages the identification of an image's most discriminative regions.  
+  
+Class Activation Maps (CAM)
+======
+CAMs can be described as the summation of the dot product of the last convolutional feature maps, and the class-wise weights of the FC layer (applied after GAP). This is formally described as:  
+![eq1](https://chinglamchoi.github.io/cchoi/files/eq1cam.png)  
+The authors hence describe CAMs as "a weighted sum of the presence of (these) visual patterns at different spatial locations". Depending on the resolution of the last convolutional feature map, the CAM is upsampled to visualise the discriminative regions in the input image, as well as passed through a softmax/sigmoid output function, to generate an image-level classification label.  
+  
+Experiments
+======
+Zhou et al. evaluate CAMs on 3 ConvNet baselines, namely AlexNet, VGGNet and GoogLeNet, on 8 classification datasets¹, along with ILSVRC 2014 and CUB-20-2011 datasets for weakly-supervised bounding box localisation. Experimentation on classification datasets yield 2 major insights:  
+- Firstly, that GAP does not severely impact classification performance of baseline models (with the exception of vanilla AlexNet, which they tweak by adding Conv layers), while retaining localisation information.  
+- Secondly, that there exists a trade-off between spatial and semantic features, where removing Conv layers (to gain a higher mapping resolution, i.e. the last convolutional feature map is less downsampled) benefits localisation, but harms classification.  
+This is evidenced by the slight increase in top-5 and top-1 classification error in Table 1, after the removal of Conv layers:  
+![Table 1](https://chinglamchoi.github.io/cchoi/files/table1cam.png)  
+CAM baselines are further evaluated on ILSVRC's localisation dataset. Zhou et al. use a thresholding technique of fitting a bounding box over the largest cluster of object features (defined as regions of CAM with values > 20% of max value in CAM), to generate bounding box predictions. Table 2 and 3 demonstrate that the CAM method localises better than prior methods (including backpropagation of [4] and Network in Network of [5]) as well as vanilla (trained on image-level labels) ConvNet baselines. In particular, GoogLeNet-GAP (with heuristics) achieves results close to that of the fully-supervised (trained on bounding box annotations) AlexNet, despite on having been trained on image-level classification labels.
+![Table 2, 3](https://chinglamchoi.github.io/cchoi/files/tables23cam.png)  
+Further evaluation on the CUB-200-2011 dataset is performed for fine-grained recognition and bounding box localisation. The authors report results for GoogLeNet-GAP with 3 settings, where training is performed using 1) a weakly-supervised approach with image-level labels, 2) a generation-to-generation approach with croppings, 3) a fully-supervised approach with bounding box annotations. Classification results are 63.0%, 67.8%, 70.5% respectively, surpassing most previous methods to show that the features identified by GAP are conducive to classification performance, and are hence useful beyond localisation tasks. Finally, evaluation using the bounding box 0.5 intersection over union (IoU) criterion gives an accuracy of 41.0% (compared to chance performance of 5.5%). Through experiments on the CUB-200-2011 dataset, Zhou et al. show that the GAP approach identifies deep, localisable features, applicable to both classification & localisation tasks.  
+![CAM visualisations](https://chinglamchoi.github.io/cchoi/files/cam1.png)  
+
+Applications
+======
+The authors further explore the pattern recognition and visualisation capabilities of the GAP approach. Through the SUN [6] and SVT [7] datasets, authors show that features generated by GoogLeNet-GAP have the potential to discover, localise and to some extent interpret high-level concepts from images, despite the lack of explicit supervision. Moreover, CAMs are able to highlight different discriminative regions, depending on the queried class-of-interest, called class-specific units. With preliminary experimentation on Visual Question Answering, Zhou et al. demonstrate possible high-level comprehension capabilities in CAMs.  
+![CAM VQA visualisations](https://chinglamchoi.github.io/cchoi/files/camvqa.png)  
+  
+Conclusion
+======
+"Learning Deep Features for Discriminative Localization" introduces a weakly-supervised method useful in both classification and localisation, and conducts rigorous experimentation on benchmark datasets to validate their results. Through novel insights about the Global Average Pooling function, and the development of Class Activation Maps, this work greatly advances progress in understanding the inner-workings of ConvNets.  
+  
+References
+======
+[1] B. Zhou, A. Khosla, A. Lapedriza, A. Oliva, and A. Torralba. Learning deep features for discriminative localization. In CVPR, 2016.  
+[2] B. Zhou, V. Jagadeesh, and R. Piramuthu. Conceptlearner: Discovering visual concepts from weakly labeled image collections. In CVPR, 2015.  
+[3] M. Oquab, L. Bottou, I. Laptev, and J. Sivic. Is object localization for free? weakly-supervised learning with convolutional neural networks. In CVPR, 2015.  
+[4] K. Simonyan, A. Vedaldi, and A. Zisserman. Deep inside convolutional networks: Visualising image classification models and saliency maps. In ICLR Workshop, 2014.  
+[5] M. Lin, Q. Chen, and S. Yan. Network in network. In ICLR, 2014.  
+[6] J. Xiao, J. Hays, K. A. Ehinger, A. Oliva, and A. Torralba. Sun database: Large-scale scene recognition from abbey to zoo. In CVPR, 2010.  
+[7] K. Wang, B. Babenko, and S. Belongie. End-to-end scene text recognition. In ICCV, 2011.  
