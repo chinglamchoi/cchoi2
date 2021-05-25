@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -29,7 +29,7 @@ Work experience
 
 * TCL Research Intern
   * May - Dec 2021 (6 months)
-  * TCL Corporate Research(Hong Kong) Co,, Ltd.
+  * TCL Corporate Research(Hong Kong) Co., Ltd.
   * Projects: tbc
   * Supervisor: tbc
 
