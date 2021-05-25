@@ -3,7 +3,7 @@ title: "Corona-Net: Fighting COVID-19 With Computer Vision"
 collection: projects
 type: "Biomedical imaging project"
 permalink: /projects/corona-net
-venue: "GitHub: [https://github.com/chinglamchoi/Corona-Net/](https://github.com/chinglamchoi/Corona-Net/)"
+venue: "[Github](https://github.com/chinglamchoi/Corona-Net/)  "  
 date: 2020-03-15
 location: "Hong Kong"
 ---
