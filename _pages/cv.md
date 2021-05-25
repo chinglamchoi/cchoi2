@@ -37,15 +37,15 @@ Work experience
   * May 2020 - Present
   * NVIDIA AI Technology Center, Hong Kong
   * Projects: Multi-modal video generation, GAN mode-collapse problem, SSL
-  * Supervisors/Collaborators: Dr Ming-Yu Liu, Dr Arun Mallya, Dr Ting-Chun Wang, Dr Charles Cheung
+  * Supervisors/Collaborators: [Dr Ming-Yu Liu](http://mingyuliu.net/), [Dr Arun Mallya](https://arunmallya.github.io/), [Dr Ting-Chun Wang](https://tcwang0509.github.io/), [Dr Charles Cheung](https://hk.linkedin.com/in/ka-chun-cheung-ph-d-40b12446)
 
 * Multimedia Laboratory Research Mentee
   * Jun 2019 - Present
   * Multimedia Laboratory, The Chinese University of Hong Kong
   * Publications: 
-    * Rui Liu, Yixiao Ge, Ching Lam Choi, Xiaogang Wang and Hongsheng Li, "DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network", in CVPR, 2021.
+    * Rui Liu, Yixiao Ge, Ching Lam Choi, Xiaogang Wang and Hongsheng Li, ["DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network"](https://chinglamchoi.github.io/cchoi/files/divco.pdf), in CVPR, 2021.
   * In submission: 2 projects on the GAN mode collapse problem, self-knowledge distillation, ICCV 2021
-  * Supervisor: Professor Li Hongsheng
+  * Supervisor: [Professor Li Hongsheng](https://www.ee.cuhk.edu.hk/~hsli/)
 
 * CityU Apps Lab Summer Intern
   * Jul - Sep 2018
@@ -54,7 +54,7 @@ Work experience
     * Co-developed learning materials (Python, Tensorflow, linear algebra basics) for CityU's AI Summer Course
     * Co-taught & TA'd the AI Summer Course
     * Introduced MIT App Inventor to aspiring secondary school teachers through Teach4HK
-  * Supervisor: Dr Ray C.C. Cheung
+  * Supervisor: [Dr Ray C.C. Cheung](https://www.ee.cityu.edu.hk/~rcheung/About_Me.html)
   
 Skills
 ======
