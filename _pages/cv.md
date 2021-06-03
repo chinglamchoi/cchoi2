@@ -13,7 +13,7 @@ redirect_from:
 Education
 ======
 * BEng in Electronic Engineering, The Chinese University of Hong Kong, 2020-2024 (expected)
-  * GPA: 3.925/4.000
+  * GPA: 3.803/4.000
 * Diocesan Girls' School, 2015-2020
   * Mathematics Extended Module 2, Physics, ICT, Literature in English
 * The Deep Learning Specialization, Deeplearning.ai, Coursera, 2018
