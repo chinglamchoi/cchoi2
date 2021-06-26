@@ -28,12 +28,6 @@ Work experience
   * Project: Optimization Methods for Machine Learning
   * Supervisor: Professor [Anthony MC So](https://www1.se.cuhk.edu.hk/~manchoso/)
 
-* TCL Research Intern
-  * May - Dec 2021 (6 months)
-  * TCL Corporate Research(Hong Kong) Co., Ltd.
-  * Projects: tbc
-  * Supervisor: tbc
-
 * NVIDIA Research Intern
   * May 2020 - Present
   * NVIDIA AI Technology Center, Hong Kong
