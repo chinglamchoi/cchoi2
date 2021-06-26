@@ -39,7 +39,7 @@ Work experience
   * Multimedia Laboratory, The Chinese University of Hong Kong
   * Publications: 
     * Rui Liu, Yixiao Ge, Ching Lam Choi, Xiaogang Wang and Hongsheng Li, ["DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network"](https://chinglamchoi.github.io/cchoi/files/divco.pdf), in CVPR, 2021.
-  * In submission: 2 projects on the GAN mode collapse problem, self-knowledge distillation, ICCV 2021
+  * In submission: 1 project on self-knowledge distillation, ICCV 2021
   * Supervisor: [Professor Li Hongsheng](https://www.ee.cuhk.edu.hk/~hsli/)
 
 * CityU Apps Lab Summer Intern
