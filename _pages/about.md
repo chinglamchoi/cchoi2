@@ -7,11 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Ching Lam, a Year 1 Electronic Engineering student from The Chinese University of Hong Kong, passionate about fields of Computer Vision and Machine Learning. Since August 2019, I have been advised by Professor Li Hongsheng as a research mentee at CUHK's Multimedia Laboratory. Presently, I am also a research intern at the NVIDIA AI Technology Center Hong Kong (since May 2020), where I work on CV and multi-modal research, collaborating with Dr. Ming-Yu Liu, Dr. Arun Mallya and Dr. Ting-Chun Wang.
+I am Ching Lam, a rising Year 2 Artificial Intelligence: Systems & Technologies (AIST) student from The Chinese University of Hong Kong, passionate about fields of Computer Vision and Machine Learning. Since August 2019, I have been advised by Professor Hongsheng Li as a research mentee at CUHK's Multimedia Laboratory. Presently, I am also a research intern at the NVIDIA AI Technology Center Hong Kong (since May 2020), where I work on CV and multi-modal research.
 
 Academic Interests
 ======
-I am fascinated by CV fields of generative models, self-supervised learning and meta-learning, as well as by ML concepts of explainability, robustness (distributional, adversarial). In particular, I am interested in multi-modally conditioned GANs for video generation, as well as unifying mathematical optimisation techniques and meta-learning to improve CNN interpretability and reprogramming/transfer ability.
+I am fascinated by CV fields of generative models, representation & multi-modal learning and video understanding, as well as by ML concepts of explainability, robustness (distributional, adversarial), generalisation. In particular, I am interested in multi-modally conditioned GANs for video generation, as well as unifying mathematical optimisation techniques and meta-learning to improve CNN interpretability and reprogramming/transfer ability.
 
 Future Aspirations
 ======
