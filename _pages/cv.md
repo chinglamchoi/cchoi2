@@ -32,14 +32,14 @@ Work experience
   * May 2020 - Present
   * NVIDIA AI Technology Center, Hong Kong
   * Projects: Multi-modal video generation, GAN mode-collapse problem, SSL
-  * Supervisors/Collaborators: [Dr Ming-Yu Liu](http://mingyuliu.net/), [Dr Arun Mallya](https://arunmallya.github.io/), [Dr Ting-Chun Wang](https://tcwang0509.github.io/), [Dr Charles Cheung](https://hk.linkedin.com/in/ka-chun-cheung-ph-d-40b12446)
+  * Supervisors/Collaborators: [Dr Charles Cheung](https://hk.linkedin.com/in/ka-chun-cheung-ph-d-40b12446); Briefly: [Dr Ming-Yu Liu](http://mingyuliu.net/), [Dr Arun Mallya](https://arunmallya.github.io/), [Dr Ting-Chun Wang](https://tcwang0509.github.io/)
 
 * Multimedia Laboratory Research Mentee
   * Jun 2019 - Present
   * Multimedia Laboratory, The Chinese University of Hong Kong
   * Publications: 
     * Rui Liu, Yixiao Ge, Ching Lam Choi, Xiaogang Wang and Hongsheng Li, ["DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network"](https://chinglamchoi.github.io/cchoi/files/divco.pdf), in CVPR, 2021.
-  * In submission: 1 project on self-knowledge distillation, ICCV 2021
+  * Pending submission: 1 project on self-knowledge distillation (CVPR/TPAMI '22), 1 project on a novel loss function (ICLR '22)
   * Supervisor: [Professor Li Hongsheng](https://www.ee.cuhk.edu.hk/~hsli/)
 
 * CityU Apps Lab Summer Intern
