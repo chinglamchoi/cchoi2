@@ -8,12 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
-[Download CV here](https://chinglamchoi.github.io/cchoi/files/Choi_Ching_Lam_CV_Aug_2021.pdf)  
+[Download CV here](https://chinglamchoi.github.io/cchoi/files/Choi_Ching_Lam_CV.pdf)  
 
 Education
 ======
 * BEng in Artificial Intelligence: Systems and Technologies (AIST), The Chinese University of Hong Kong, 2020-2024 (expected)
-  * GPA: 3.803/4.000
+  * GPA: 3.751/4.000
 * Diocesan Girls' School, 2015-2020
   * Mathematics Extended Module 2, Physics, ICT, Literature in English
 * The Deep Learning Specialization, Deeplearning.ai, Coursera, 2018
