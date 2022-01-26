@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Hello!"
+title: "Soupy twist!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I am Ching Lam, a Year undergraduate from [CUHK](https://www.cuhk.edu.hk/english/index.html) studying [AIST](https://www.cse.cuhk.edu.hk/admission/aistn/). Since 2019, I have been working with Professor [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) at CUHK's [Multimedia Laboratory](https://mmlab.ie.cuhk.edu.hk/) (MMLab). From 2020 - 2021, I was a research intern at NVIDIA; at present, I am interning with Professor [Jiajun Wu](https://jiajunwu.com/) at the Stanford AI Lab (SAIL).
+I am Ching Lam, a Year 2 undergraduate from [CUHK](https://www.cuhk.edu.hk/english/index.html) studying [AIST](https://www.cse.cuhk.edu.hk/admission/aistn/). Since 2019, I have been working with Professor [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) at CUHK's [Multimedia Laboratory](https://mmlab.ie.cuhk.edu.hk/) (MMLab). From 2020 - 2021, I was a research intern at NVIDIA; at present, I am interning with Professor [Jiajun Wu](https://jiajunwu.com/) at the Stanford AI Lab (SAIL). My idols in work and life are Professor Andrew Zisserman and Hugh Laurie; nothing brings me more joy than [A Bit of Fry and Laurie](https://youtu.be/U8ko2nCk_hE).
 
 Academic Interests
 ======
