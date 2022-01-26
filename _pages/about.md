@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Ching Lam, a rising Year 2 Artificial Intelligence: Systems & Technologies (AIST) student from The Chinese University of Hong Kong, passionate about fields of Computer Vision and Machine Learning. Since August 2019, I have been advised by Professor Hongsheng Li as a research mentee at CUHK's Multimedia Laboratory. Presently, I am also a research intern at the NVIDIA AI Technology Center Hong Kong (since May 2020), where I work on CV and multi-modal research.
+I am Ching Lam, a Year undergraduate from [CUHK](https://www.cuhk.edu.hk/english/index.html) studying [AIST](https://www.cse.cuhk.edu.hk/admission/aistn/). Since 2019, I have been working with Professor [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) at CUHK's [Multimedia Laboratory](https://mmlab.ie.cuhk.edu.hk/) (MMLab). From 2020 - 2021, I was a research intern at NVIDIA; at present, I am interning with Professor [Jiajun Wu](https://jiajunwu.com/) at the Stanford AI Lab (SAIL).
 
 Academic Interests
 ======
