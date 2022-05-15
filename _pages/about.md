@@ -7,11 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Ching Lam, a Year 2 undergraduate from [CUHK](https://www.cuhk.edu.hk/english/index.html) studying [AIST](https://www.cse.cuhk.edu.hk/admission/aistn/). Since 2019, I have been working with Professor [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) at CUHK's [Multimedia Laboratory](https://mmlab.ie.cuhk.edu.hk/) (MMLab). From 2020 - 2021, I was a research intern at NVIDIA; at present, I am interning with Professor [Jiajun Wu](https://jiajunwu.com/) at the Stanford AI Lab (SAIL). My idols in work and life are Professor Andrew Zisserman and Hugh Laurie; nothing brings me more joy than [A Bit of Fry and Laurie](https://youtu.be/U8ko2nCk_hE).
+I am Ching Lam, a Year 2 undergraduate from [CUHK](https://www.cuhk.edu.hk/english/index.html) studying [AIST](https://www.cse.cuhk.edu.hk/admission/aistn/). Since 2019, I have been working with Professor [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) at CUHK's [Multimedia Laboratory](https://mmlab.ie.cuhk.edu.hk/) (MMLab). From 2020 - 2021, I was a research intern at NVIDIA; in 2022, I have been interning with Professor [Jiajun Wu](https://jiajunwu.com/) at the Stanford AI Lab (SAIL). At present, I am working with Professor [Farzan Farnia](https://www.cse.cuhk.edu.hk/~farnia/) at CUHK on theoretical machine learning, with a focus on adversarial attacks and robust learning. My idols in work and life are Professor Andrew Zisserman and Hugh Laurie; nothing brings me more joy than [A Bit of Fry and Laurie](https://youtu.be/U8ko2nCk_hE).
 
 Academic Interests
 ======
-I am fascinated by CV fields of generative models, representation & multi-modal learning and video understanding, as well as by ML concepts of explainability, robustness (distributional, adversarial), generalisation. In particular, I am interested in multi-modally conditioned GANs for video generation, as well as unifying mathematical optimisation techniques and meta-learning to improve CNN interpretability and reprogramming/transfer ability.
+I am fascinated by the intersections between ML and CV, including reconciling the various definitions of "robustness". I enjoy researching the properties of adversarial attack algorithms (Nash equilibrium, semantic locality, transferability/universality). In the future, I hope to further explore the notion of "robustness" by investigating different kinds of noisy learning (especially label noise, distributional shifts and federated settings). 
 
 Future Aspirations
 ======
