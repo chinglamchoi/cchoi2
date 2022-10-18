@@ -13,7 +13,7 @@ redirect_from:
 Education
 ======
 * BEng in Artificial Intelligence: Systems and Technologies (AIST), The Chinese University of Hong Kong, 2020-2024 (expected)
-  * GPA: 3.751/4.000
+  * Major GPA: 3.807/4.000
 * Diocesan Girls' School, 2015-2020
   * Mathematics Extended Module 2, Physics, ICT, Literature in English
 * The Deep Learning Specialization, Deeplearning.ai, Coursera, 2018
@@ -22,25 +22,37 @@ Education
 
 Work experience
 ======
+* Stanford AI Lab (SAIL) Research Intern
+  * Jan - Jun 2022  (6 months)
+  * SAIL, Stanford Univeristy
+  * Project: Scene understanding via image intrinsics
+  * Supervisor: Professor [Jiajun Wu](https://jiajunwu.com/)
+
+* NVIDIA Research Intern
+  * Sep 2020 - Oct 2021 (1 year)
+  * NVIDIA AI Technology Center, Hong Kong
+  * Projects: Multi-modal video generation, GAN mode-collapse problem, SSL
+  * Supervisors/Collaborators: [Dr Charles Cheung](https://hk.linkedin.com/in/ka-chun-cheung-ph-d-40b12446); Briefly: [Dr Ming-Yu Liu](http://mingyuliu.net/), [Dr Arun Mallya](https://arunmallya.github.io/), [Dr Ting-Chun Wang](https://tcwang0509.github.io/)
+
+* Theoretical Machine Learning Lab Research Assistant
+  * Jan 2022 - Present (10 months and counting)
+  * The Chinese University of Hong Kong
+  * Projects: Adversarial training and robustness; understanding generalisation; MixUp
+  * Supervisor: Professor [Farzan Farnia](https://www.cse.cuhk.edu.hk/~farnia/)
+
+* Multimedia Laboratory (MMLab) Research Mentee
+  * Jun 2019 - Present (3 years and counting)
+  * MMLab, The Chinese University of Hong Kong
+  * Publications: 
+    * Rui Liu, Yixiao Ge, Ching Lam Choi, Xiaogang Wang and Hongsheng Li, ["DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network"](https://chinglamchoi.github.io/cchoi/files/divco.pdf), in CVPR, 2021.
+  * Pending submission: 1 project on self-knowledge distillation (CVPR/TPAMI '22), 1 project on a novel loss function (ICLR '22)
+  * Supervisor: [Professor Li Hongsheng](https://www.ee.cuhk.edu.hk/~hsli/)
+
 * UG Summer Research Intern
   * Jun - Aug 2021 (2 months)
   * Engineering Faculty, The Chinese University of Hong Kong
   * Project: Optimization Methods for Machine Learning
   * Supervisor: Professor [Anthony MC So](https://www1.se.cuhk.edu.hk/~manchoso/)
-
-* NVIDIA Research Intern
-  * May 2020 - Present
-  * NVIDIA AI Technology Center, Hong Kong
-  * Projects: Multi-modal video generation, GAN mode-collapse problem, SSL
-  * Supervisors/Collaborators: [Dr Charles Cheung](https://hk.linkedin.com/in/ka-chun-cheung-ph-d-40b12446); Briefly: [Dr Ming-Yu Liu](http://mingyuliu.net/), [Dr Arun Mallya](https://arunmallya.github.io/), [Dr Ting-Chun Wang](https://tcwang0509.github.io/)
-
-* Multimedia Laboratory Research Mentee
-  * Jun 2019 - Present
-  * Multimedia Laboratory, The Chinese University of Hong Kong
-  * Publications: 
-    * Rui Liu, Yixiao Ge, Ching Lam Choi, Xiaogang Wang and Hongsheng Li, ["DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network"](https://chinglamchoi.github.io/cchoi/files/divco.pdf), in CVPR, 2021.
-  * Pending submission: 1 project on self-knowledge distillation (CVPR/TPAMI '22), 1 project on a novel loss function (ICLR '22)
-  * Supervisor: [Professor Li Hongsheng](https://www.ee.cuhk.edu.hk/~hsli/)
 
 * CityU Apps Lab Summer Intern
   * Jul - Sep 2018
