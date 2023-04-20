@@ -7,12 +7,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Ching Lam, a Year 3 undergraduate from [CUHK](https://www.cuhk.edu.hk/english/index.html) studying [AIST](https://www.cse.cuhk.edu.hk/admission/aistn/) (major) and English (minor). Since 2019, I have been working with Professor [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) at CUHK's [Multimedia Laboratory](https://mmlab.ie.cuhk.edu.hk/) (MMLab). From 2020 - 2021, I was a research intern at NVIDIA; in 2022, I interned with Professor [Jiajun Wu](https://jiajunwu.com/) at the Stanford AI Lab (SAIL). At present (2023), I am working with Professor [Farzan Farnia](https://www.cse.cuhk.edu.hk/~farnia/) at CUHK on theoretical machine learning, with a focus on adversarial attacks and robust learning. My idols in work and life are Professor Andrew Zisserman and Hugh Laurie; nothing brings me more joy than [A Bit of Fry and Laurie](https://youtu.be/U8ko2nCk_hE).
+I am Ching Lam, a Year 3 undergraduate from [CUHK](https://www.cuhk.edu.hk/english/index.html) studying [AI Engineering](https://www.cse.cuhk.edu.hk/admission/aistn/), with a double minor in English and German. I will be applying for PhD positions in the 2024 fall entry season, to better understand robustness in computer vision (CV) and machine learning (ML).  
 
+I've been incredibly fortunate to spend time with amazing people at exciting places. In 2023, I did a 3-month internship with [Wieland Brendel](https://robustml.is.mpg.de/) at Tübingen's Max Planck Institute for Intelligent Systems (MPI-IS); I will be interning with [Yann Dauphin](https://www.dauphin.io/) and [Aaron Courville](https://mila.quebec/en/person/aaron-courville/) at MILA from May-Aug. In 2022, I did a remote, 6-month internship with [Jiajun Wu](https://jiajunwu.com/) at the Stanford AI Lab (SAIL); I started as a research assisyant with CUHK's [Farzan Farnia](https://www.cse.cuhk.edu.hk/~farnia/). From 2020 - 2021, I was a research intern at NVIDIA; from 2019 - 2022, I worked with my first-ever mentor, [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/), at CUHK's [Multimedia Laboratory](https://mmlab.ie.cuhk.edu.hk/) (MMLab).   
+  
+I most look up to Hugh Laurie and nothing brings me more joy than [A Bit of Fry and Laurie](https://youtu.be/U8ko2nCk_hE).  
+  
 Academic Interests
 ======
-I am fascinated by the intersections between ML and CV, including reconciling the various definitions of "robustness". I enjoy researching the properties of adversarial attack algorithms (Nash equilibrium, semantic locality, transferability/universality). In the future, I hope to further explore the notion of "robustness" by investigating different kinds of noisy learning (especially label noise, distributional shifts and federated settings). 
-
-Future Aspirations
-======
-Upon graduation in 2024, I am determined to pursue a PhD in Computer Science in the US/UK, delving deep into CV and ML research. During my PhD studies, I aim hone my instincts as a researcher, developing an intuition for ideas with great potential and the skills necessary to transform ideas into influential research.
+I am fascinated by the intersections between ML and CV, including reconciling the various definitions of "robustness". I want to tackle fundamental problems such as whether deep learning methods are generalizable learners, how we should define and design for explainable/ineterpretable models, and how to better understand learning dynamics under noisy, multi-agent settings (e.g. label noise, distributional shifts, adversarial training, knowledge distillation, federated settings). I deeply enjoy both theoretical/empirical research; I strive to connect theory and practice, by building theoretically sound (elegant) and practically grounded models.
