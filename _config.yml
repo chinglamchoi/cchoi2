@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Choi Ching Lam"
 title_separator          : "-"
 name                     : &name "Choi Ching Lam"
-description              : &description "Aspiring CV & ML researcher | Year 2 undergraduate at CUHK | NVIDIA AI Tech Center intern"
+description              : &description "Aspiring CV & ML researcher | Penultimate year (Y3) undergraduate at CUHK"
 url                      : https://chinglamchoi.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "cchoi" # the subpath of your site, e.g. "/blog"
 repository               : "chinglamchoi/cchoi.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Choi Ching Lam"
   avatar           : "profile.jpg"
-  bio              : "Aspiring CV & ML researcher | Year 2 undergraduate at CUHK | NVIDIA AI Tech Center intern"
+  bio              : "Aspiring CV & ML researcher | Penultimate year (Y3) undergraduate at CUHK"
   location         : "The Chinese University of Hong Kong"
   employer         :
   pubmed           : 
