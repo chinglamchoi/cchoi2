@@ -22,46 +22,53 @@ Education
 
 Work experience
 ======
-* Stanford AI Lab (SAIL) Research Intern
+* Mila Research Intern (upcoming)
+  * May - Aug 2023  (107 days)
+  * Mila---Quebec Artificial Intelligence Institute
+  * Project: Tbc
+  * Supervisor: [Yann Dauphin](https://www.dauphin.io/) and [Aaron Courville](https://mila.quebec/en/person/aaron-courville/)
+
+* MPI-IS Research Intern
+  * Jan - Apr 2023  (3 months)
+  * Robust Machine Learning group, Max Planck Institute for Intelligent Systems, Tübingen
+  * Project: Sparse adversarial attacks and training 
+  * Supervisor: [Wieland Brendel](https://robustml.is.mpg.de)
+
+* Stanford AI Lab (SAIL) Research Intern (remote)
   * Jan - Jun 2022  (6 months)
   * SAIL, Stanford Univeristy
   * Project: Scene understanding via image intrinsics
-  * Supervisor: Professor [Jiajun Wu](https://jiajunwu.com/)
+  * Supervisor: [Jiajun Wu](https://jiajunwu.com/)
 
 * NVIDIA Research Intern
   * Sep 2020 - Oct 2021 (1 year)
   * NVIDIA AI Technology Center, Hong Kong
   * Projects: Multi-modal video generation, GAN mode-collapse problem, SSL
-  * Supervisors/Collaborators: [Dr Charles Cheung](https://hk.linkedin.com/in/ka-chun-cheung-ph-d-40b12446); Briefly: [Dr Ming-Yu Liu](http://mingyuliu.net/), [Dr Arun Mallya](https://arunmallya.github.io/), [Dr Ting-Chun Wang](https://tcwang0509.github.io/)
+  * Supervisors/Collaborators: [Charles Cheung](https://hk.linkedin.com/in/ka-chun-cheung-ph-d-40b12446); briefly with [Ming-Yu Liu](http://mingyuliu.net/), [Arun Mallya](https://arunmallya.github.io/), [Ting-Chun Wang](https://tcwang0509.github.io/)
 
 * Theoretical Machine Learning Lab Research Assistant
-  * Jan 2022 - Present (10 months and counting)
+  * Jan 2022 - Present (1 year, 3 months and counting)
   * The Chinese University of Hong Kong
   * Projects: Adversarial training and robustness; understanding generalisation; MixUp
-  * Supervisor: Professor [Farzan Farnia](https://www.cse.cuhk.edu.hk/~farnia/)
+  * Supervisor: [Farzan Farnia](https://www.cse.cuhk.edu.hk/~farnia/)
+  * Publications: 
+    * Ching Lam Choi, Farzan Farnia, ["Universal Adversarial Directions"](https://chinglamchoi.github.io/cchoi/files/uad.pdf), arXiv preprint arXiv:2210.15997, 2022.
+    * Ching Lam Choi, Farzan Farnia, ["Generalization of Interpretable Deep Learning Requires More Data"](https://chinglamchoi.github.io/cchoi/files/interp.pdf), 2023. 
 
-* Multimedia Laboratory (MMLab) Research Mentee
-  * Jun 2019 - Present (3 years and counting)
+* Multimedia Laboratory (MMLab) Research Student
+  * Jun 2019 - Jul 2022 (3 years)
   * MMLab, The Chinese University of Hong Kong
+  * Supervisor: [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)
   * Publications: 
     * Rui Liu, Yixiao Ge, Ching Lam Choi, Xiaogang Wang and Hongsheng Li, ["DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network"](https://chinglamchoi.github.io/cchoi/files/divco.pdf), in CVPR, 2021.
-  * Pending submission: 1 project on self-knowledge distillation (CVPR/TPAMI '22), 1 project on a novel loss function (ICLR '22)
-  * Supervisor: [Professor Li Hongsheng](https://www.ee.cuhk.edu.hk/~hsli/)
+    * Yixiao Ge, Xiao Zhang, Ching Lam Choi, Peipei Zhao, Feng Zhu, Rui Zhao, Hongsheng Li, ["Self-distillation with Batch Knowledge Ensembling Improves ImageNet Classification"](https://chinglamchoi.github.io/cchoi/files/bake.pdf), arXiv preprint arXiv:2104.13298, 2021. 
 
 * UG Summer Research Intern
   * Jun - Aug 2021 (2 months)
   * Engineering Faculty, The Chinese University of Hong Kong
   * Project: Optimization Methods for Machine Learning
-  * Supervisor: Professor [Anthony MC So](https://www1.se.cuhk.edu.hk/~manchoso/)
+  * Supervisor: [Anthony Man-Cho So](https://www1.se.cuhk.edu.hk/~manchoso/)
 
-* CityU Apps Lab Summer Intern
-  * Jul - Sep 2018
-  * CityU Apps Lab, City University of Hong Kong
-  * Responsibilities: 
-    * Co-developed learning materials (Python, Tensorflow, linear algebra basics) for CityU's AI Summer Course
-    * Co-taught & TA'd the AI Summer Course
-    * Introduced MIT App Inventor to aspiring secondary school teachers through Teach4HK
-  * Supervisor: [Dr Ray C.C. Cheung](https://www.ee.cityu.edu.hk/~rcheung/About_Me.html)
   
 Skills
 ======
