@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Choi Ching Lam"
+title                    : "Ching Lam Choi"
 title_separator          : "-"
-name                     : &name "Choi Ching Lam"
+name                     : &name "Ching Lam Choi"
 description              : &description "Aspiring CV & ML researcher | Penultimate year (Y3) undergraduate at CUHK"
 url                      : https://chinglamchoi.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "cchoi" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Choi Ching Lam"
+  name             : "Ching Lam Choi"
   avatar           : "profile.jpg"
   bio              : "Aspiring CV & ML researcher | Penultimate year (Y3) undergraduate at CUHK"
   location         : "The Chinese University of Hong Kong"
