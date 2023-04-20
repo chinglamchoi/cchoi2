@@ -11,7 +11,7 @@ I am Ching Lam, a Year 3 undergraduate from [CUHK](https://www.cuhk.edu.hk/engli
 
 I've been incredibly fortunate to spend time with amazing people at exciting places. In 2023, I did a 3-month internship with [Wieland Brendel](https://robustml.is.mpg.de/) at Tübingen's Max Planck Institute for Intelligent Systems (MPI-IS); I will be interning with [Yann Dauphin](https://www.dauphin.io/) and [Aaron Courville](https://mila.quebec/en/person/aaron-courville/) at MILA from May-Aug. In 2022, I did a remote, 6-month internship with [Jiajun Wu](https://jiajunwu.com/) at the Stanford AI Lab (SAIL); I started as a research assisyant with CUHK's [Farzan Farnia](https://www.cse.cuhk.edu.hk/~farnia/). From 2020 - 2021, I was a research intern at NVIDIA; from 2019 - 2022, I worked with my first-ever mentor, [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/), at CUHK's [Multimedia Laboratory](https://mmlab.ie.cuhk.edu.hk/) (MMLab).   
   
-I most look up to Hugh Laurie and nothing brings me more joy than [A Bit of Fry and Laurie](https://youtu.be/U8ko2nCk_hE).  
+My idol in life Hugh Laurie and nothing brings me more joy than [A Bit of Fry and Laurie](https://youtu.be/U8ko2nCk_hE).  
   
 Academic Interests
 ======
