@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Ching Lam, a final year undergraduate from [CUHK](https://www.cuhk.edu.hk/english/index.html) studying [AI Engineering](https://www.cse.cuhk.edu.hk/admission/aistn/), with a double minor in English and German. I will be applying for PhD positions in the 2024 fall entry season, to better understand robustness in computer vision (CV) and machine learning (ML).  
+I am Ching Lam, a final year undergraduate from [CUHK](https://www.cuhk.edu.hk/english/index.html) studying [AI Engineering](https://www.cse.cuhk.edu.hk/admission/aistn/), with a double minor in English and German. I am applying for PhD positions in the 2024 fall entry season, to better understand robustness in computer vision (CV) and machine learning (ML).  
 
 I've been incredibly fortunate to spend time with amazing people at exciting places. As of June 2023, I am interning with [Yann Dauphin](https://www.dauphin.io/) and [Aaron Courville](https://mila.quebec/en/person/aaron-courville/) at MILA. Earlier in 2023, I did a 3-month internship with [Wieland Brendel](https://robustml.is.mpg.de/) at Tübingen's Max Planck Institute for Intelligent Systems (MPI-IS). In 2022, I did a remote, 6-month internship with [Jiajun Wu](https://jiajunwu.com/) at the Stanford AI Lab (SAIL); I started as a research assistant with CUHK's [Farzan Farnia](https://www.cse.cuhk.edu.hk/~farnia/). From 2020 - 2021, I was a research intern at NVIDIA; from 2019 - 2022, I worked with my first-ever mentor, [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/), at CUHK's [Multimedia Laboratory](https://mmlab.ie.cuhk.edu.hk/) (MMLab).   
   
