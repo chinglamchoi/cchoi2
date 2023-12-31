@@ -122,7 +122,6 @@ include:
   - .htaccess
   - _pages
   - files
-  - assets/goat.html
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -310,6 +309,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-<script data-goatcounter="https://27f634867cf.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
