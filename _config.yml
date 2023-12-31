@@ -6,6 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+
+<script data-goatcounter="https://27f634867cf.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+        
 locale                   : "en-US"
 title                    : "Ching Lam Choi"
 title_separator          : "-"
